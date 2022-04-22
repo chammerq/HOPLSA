@@ -1,0 +1,10 @@
+Package: HOPLSA
+Type: Package
+Title: Higher Order PLSA
+Version: 1.0.1
+Date: 2022-04-11
+Author: Chad Hammerquist
+Description: Fast Higher-Order PLSA, including 3D,and 4D PLSA. Uses Eigen and Rcpp and only fits the non-zero values for increased speed and lower memory usage.
+License: GPL3
+Imports: Rcpp (>= 1.0.7)
+LinkingTo: Rcpp, RcppEigen

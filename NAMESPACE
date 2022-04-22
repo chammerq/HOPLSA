@@ -1,0 +1,6 @@
+useDynLib(HOPLSA)
+import(RcppEigen)
+importFrom(Rcpp, evalCpp)
+export("PLSA_2D")
+export("PLSA_3D")
+export("PLSA_4D")
