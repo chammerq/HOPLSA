@@ -11,7 +11,7 @@ PLSA_3D = function(flat_format,n_latent=2,niter=2,all_factors=FALSE){
     stop('Missing values not allowed in tensor indices')
   }
   
-  # Get index
+  # Get index (Consider sorting for better cache coherency)
   i = match(flat_format[,1],dimA)
   j = match(flat_format[,2],dimB)
   k = match(flat_format[,3],dimC)
